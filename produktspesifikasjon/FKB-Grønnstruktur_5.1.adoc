@@ -1,0 +1,210 @@
+:datasett: FKB-Grønnstruktur
+:publisert: 2024-07-01
+:versjon: 5.1
+:underversjon: 2024-07-01
+// Sti til metadataoppføring i Geonorge
+//:metadata-url: https://kartkatalog.geonorge.no/metadata/fkb-ar5/166382b4-82d6-4ea9-a68e-6fd0c87bf788
+:dokumentstatus: 2
+// All informasjon i hode over denne linja må fylles ut for hvert datasett.
+include::../felles/filhode.adoc[]
+
+== Innledning, historikk og endringslogg
+
+=== Innledning
+
+Beskrivelse av FKB-Grønnstruktur...
+
+
+Denne produktspesifikasjonen er utarbeidet iht. SOSI produktspesifikasjoner – Krav og godkjenning 5.0 <<SOSI-KRAV>>. UML-modellen som ligger til grunn for innhold i diagrammene og dokumentasjon i kap. 5, følger reglene i SOSI Regler for UML-modellering, versjon 5.1 <<SOSI-UML>>. http://sosi.geonorge.no/veiledere/UML[Denne veilederen] gir hjelp til å lese UML-diagrammene.
+
+
+=== Historikk
+
+Litt historikk for FKB generelt?
+
+=== Endringslogg
+
+Første versjon av produktspesifikasjonen...
+
+
+=== Normative referanser
+
+include::../felles/kap14_normativ_ref.adoc[]
+
+<<<
+
+== Definisjoner og forkortelser
+
+=== Definisjoner
+
+include::../felles/kap21_definisjoner.adoc[]
+
+=== Forkortelser
+
+include::../felles/kap22_forkortelser.adoc[]
+
+<<<
+
+== Generelt om spesifikasjonen
+
+=== Unik identifisering
+FKBGrønnstruktur
+
+==== Fullstendig navn
+{datasett} 
+
+==== Versjon
+{versjon}
+
+=== Referansedato
+{underversjon}
+
+=== Ansvarlig organisasjon
+Geovekst (fagansvarlig NIBIO)
+
+=== Språk
+nor
+
+=== Hovedtema
+
+Fyll inn...
+
+
+=== Temakategori
+basisData
+
+=== Sammendrag
+
+Fyll inn...
+
+
+=== Formål
+// Fellesdel for FKB generell del og alle FKB-produktspesifikasjoner
+include::../felles/kap38_formal.adoc[]
+
+Fyll inn...
+
+
+// Fellesdel som dekker kap 3.9 - 3.12 for alle FKB-produktspesifikasjoner
+include::../felles/kap39-312_representasjon.adoc[]
+
+=== Supplerende beskrivelse
+Data ikke angitt
+
+
+
+<<<
+
+== Spesifikasjonsomfang
+
+include::../felles/kap4_omfang.adoc[]
+
+<<<
+
+== Innhold og struktur
+
+=== Omfang
+<<HeleDatasettet,Hele datasettet>>
+
+Eksport fra UML-modell inkluderes her
+
+//include::modellRapport.adoc[]
+
+<<<
+
+== Referansesystem
+
+include::../felles/kap6_referansesystem.adoc[]
+
+<<<
+
+== Kvalitet
+
+=== Omfang
+<<HeleDatasettet,Hele datasettet>>
+
+=== Beskrivelse av datakvalitet
+
+Fyll inn...
+
+<<<
+
+== Datafangst
+=== Omfang
+<<HeleDatasettet,Hele datasettet>>
+
+=== Periodisk ajourhold
+
+Fyll inn...
+
+<<<
+
+== Datavedlikehold
+
+Fyll inn...
+
+<<<
+
+== Presentasjon
+
+=== Omfang
+<<HeleDatasettet,Hele datasettet>>
+
+=== Referanse til presentasjonskatalog
+
+Fyll inn...
+
+<<<
+
+== Leveranse
+
+include::../felles/kap11_leveranse.adoc[]
+
+<<<
+
+== Tilleggsinformasjon
+
+Fyll inn...
+
+
+<<<
+
+== Metadata
+
+=== Omfang
+<<HeleDatasettet,Hele datasettet>>
+
+=== Metadataspesifikasjon
+
+include::../felles/kap13_metadata.adoc[]
+
+<<<
+
+
+[appendix]
+== SOSI-format-realisering
+
+SOSI-realiseringen følger kravene i "Realisering i SOSI-foramt 5.0" <<SOSI-FORMAT>>. Under en utlisting av SOSI-formatrealiseringen:
+
+Eksport fra UML-modell inkluderes her
+// include::SOSIformatRealisering.adoc[]
+
+
+[appendix]
+== GML-realisering
+
+GML-realiseringen følger kravene i "Realisering i GML-format 5.0" <<SOSI-GML>>. Realiseringen defineres av følgende filer:
+
+* link:{skjema-url}/FKBGronnstruktur.xsd[GML-Schema]
+* link:{skjema-url}/eksempel/[Katalog med eksempelfiler]
+
+
+:sectnums!:
+
+<<<
+
+[discrete]
+== Lisensvilkår
+
+// Inkluder lisensvilkår
+include::../felles/lisensvilkaar.adoc[]
