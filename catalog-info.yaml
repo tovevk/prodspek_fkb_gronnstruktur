@@ -2,37 +2,36 @@
 apiVersion: "backstage.io/v1alpha1"
 kind: "Component"
 metadata:
-  name: "prodspek_fkb_ar5"
+  name: "prodspek_fkb_gronnstruktur"
   tags:
   - "public"
 spec:
   type: "documentation"
   lifecycle: "production"
-  owner: "felles_kartdatabase"
-  system: "standardisering"
+  owner: "land"
 ---
 apiVersion: "backstage.io/v1alpha1"
 kind: "Group"
 metadata:
-  name: "security_champion_prodspek_fkb_ar5"
-  title: "Security Champion prodspek_fkb_ar5"
+  name: "security_champion_prodspek_fkb_gronnstruktur"
+  title: "Security Champion prodspek_fkb_gronnstruktur"
 spec:
   type: "security_champion"
   parent: "land_security_champions"
   members:
   - "NilsIvarNes"
   children:
-  - "resource:prodspek_fkb_ar5"
+  - "resource:prodspek_fkb_gronnstruktur"
 ---
 apiVersion: "backstage.io/v1alpha1"
 kind: "Resource"
 metadata:
-  name: "prodspek_fkb_ar5"
+  name: "prodspek_fkb_gronnstruktur"
   links:
-  - url: "https://github.com/kartverket/prodspek_fkb_ar5"
-    title: "prodspek_fkb_ar5 på GitHub"
+  - url: "https://github.com/kartverket/prodspek_fkb_gronnstruktur"
+    title: "prodspek_fkb_gronnstruktur på GitHub"
 spec:
   type: "repo"
-  owner: "security_champion_prodspek_fkb_ar5"
+  owner: "security_champion_prodspek_fkb_gronnstruktur"
   dependencyOf:
-  - "component:prodspek_fkb_ar5"
+  - "component:prodspek_fkb_gronnstruktur"
