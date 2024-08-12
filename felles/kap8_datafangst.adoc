@@ -2,4 +2,15 @@
 <<HeleDatasettet,Hele datasettet>>
 
 === Registeringsinstruks
-Fotogrammetrisk datafangst er den dominerende datafangstmetoden for {fkbdatasett}. Se {reginstr-url}/Fotogrammetrisk_2022-01-01[fotogrammetrisk registreringsinstruks for {fkbdatasett}].
+Fjernmåling er den dominerende datafangstmetoden for {fkbdatasett}. 
+
+Grønnstrukturkartet etableres ved bruk av 
+- detaljerte offentlige kartdata (FKB-Vei, -Vann, -Bygning)
+- satellittdata (very high resolution-bilder fra Copernicus-programmet via Norsk Romsenter) med oppløsning 2–4 m
+- nasjonal detaljert høydemodell (NDH) med oppløsning 1 m
+
+Det hentes informasjon fra SSB-arealbruk og FKB-AR5 for å 
+- avgrense kartleggingsområde (bebygd inkl. hyttefelt ved å kombinere FKB-AR5 og SSB-arealbruk, bufrer ut og inn for sammenhengende områder)
+- gi informasjon om jordbruksareal i bebygde områder
+
+Ortofoto med oppløsning 25 cm brukes i kontrollen av produsert {fkbdatasett}.

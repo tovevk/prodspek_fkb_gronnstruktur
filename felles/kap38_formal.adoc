@@ -6,4 +6,5 @@ FKB er grunnleggende geografisk informasjon for å utøve lov- og forskriftsbela
 * prosjekteringsformål
 * analyse og presentasjon i et integrert informasjonssystem (GIS-system)
 * produksjon av kart og avledede produkter med forskjellig krav til innhold, detaljering og stedfestingsnøyaktighet
+
 FKB inngår i det offentlige kartgrunnlaget (<<DOK>>).

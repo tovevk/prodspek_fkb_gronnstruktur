@@ -6,6 +6,8 @@
 
 *DTM*: Digital TerrengModell.
 
+*NDH*: Nasjonal digital høydemodell.
+
 [#ESRI fgdb]
 *ESRI fgdb*: Leveranseformatet ESRI filgeodatabase (ESRI = Enviromental Systems Research Institute) 
 

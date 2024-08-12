@@ -106,6 +106,9 @@ _MERKNAD_: I FKB brukes områdetypen til å si noe om hvilken FKB-standard som b
 .*oppgradering*
 forbedring av den datatekniske kvaliteten av eksisterende data <<PABG>> 
 
+
+.*ortofoto* ????
+
 .*periodisk ajourhold*
 ajourføring som utføres systematisk med jevne mellomrom <<PABG>> 
 
