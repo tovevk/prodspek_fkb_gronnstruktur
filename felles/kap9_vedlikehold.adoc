@@ -6,10 +6,9 @@ FKB-data vedlikeholdes gjennom 3 prosesser. Det henvises til Geovekst veiledning
 <<HeleDatasettet,Hele datasettet>>
 
 ==== Vedlikeholdsfrekvens 
-Periodisk og kontinuerlig ajourhold.
-Hvert år vil datasettet bli oppdatert med nye FKB-data.
+Periodisk ajourhold.
+Hvert år vil datasettet bli oppdatert med nye FKB-data fra Vei, Vann, Bygning og AR5 (jordbruksareal) samt SSB-arealbruk for områdeavgrensning.
 Hvert 3. år foretas et periodisk ajourhold ved bruk av nye høyoppløselige satellittbilder.
-I tillegg kan kommunene selv legge til mer detaljert informasjon om taktype og overflate på grå arealer
 
 ==== Vedlikeholdsbeskrivelse 
 NIBIO foretar ajourholdet, både årlig og hvert 3. år.
