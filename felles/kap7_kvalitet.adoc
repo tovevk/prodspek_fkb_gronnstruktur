@@ -10,7 +10,7 @@ Prinsippet er at fullstendighet prioriteres foran nøyaktighet og FKB-data for e
 
 === Kvalitetskrav
 ==== Egenskapskonsistens
-Klassifikasjonsriktighet skal være > 15 % feil klassifiserte egenskaper? Jf. F1-score i NIBIOs interne kvalitetskontroll av grønnstruktur for Drammen (95 %), Ullensvang (86 %) og Bodø (97 %). Her er jeg imidlertid usikker på hvorfor 400 punkter er valgt (200 i grønt områre, 200 i grått område), jf. tabell 5 i Geodatakvalitet.
+Klassifikasjonsriktighet skal være > 15 % feil klassifiserte egenskaper? Jf. F1-score i NIBIOs interne kvalitetskontroll av grønnstruktur for Drammen (95 %), Ullensvang (86 %) og Bodø (97 %). Her er jeg imidlertid usikker på hvorfor 400 punkter er valgt (200 i grønt områre, 200 i grått område), jf. tabell 4 i kap. 7.4.1. Geodatakvalitet.
 Finner ingen informasjon om kontrollområder, kap. 7.2 i Geodatakvalitet.
 
 ==== Fullstendighet
@@ -25,5 +25,5 @@ Er dette oppnåelig?
 
 Er stedfestingsnøyaktighet i høyde aktuelt?
 Kan/skal det brukes på sjikthøyder (m) (< 4, 4–8, 8–12, 12–16, > 16)?
-Hva med felt-, busk- og tresjikt (m)? Senke kravet til 100 cm i høyde siden klasseinndelinga er <1, 1-3, >3?
+Hva med felt-, busk- og tresjikt (m)? Senke kravet til 100 cm eller mindre i høyde siden klasseinndelinga er <1, 1-3, >3?
 
