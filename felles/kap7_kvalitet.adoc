@@ -15,9 +15,9 @@ Finner ingen informasjon om kontrollområder, kap. 7.2 i Geodatakvalitet.
 
 ==== Fullstendighet
 Manglende objekter
-Prosentandel mangelende objekter?
+Prosentandel manglende objekter?
 Overskytende objekter
-Prosentandel mangelende objekter?
+Prosentandel overskytende objekter?
 
 ==== Stedfestingsnøyaktighet
 Krav til stedfestingsnøyaktighet settes etter FKB-standard C/D og nøyaktighetsklasse 4 Diffuse detaljer. Dette gir krav til systematiske avvik og standardavvik på 30 cm / 100 cm i grunnriss og 40 cm / 150 cm i høyde.
