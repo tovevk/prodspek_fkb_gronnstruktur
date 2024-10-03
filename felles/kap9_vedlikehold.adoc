@@ -15,8 +15,6 @@ I tillegg kan kommunene selv legge til mer detaljert informasjon om taktype og o
 NIBIO foretar ajourholdet, både årlig og hvert 3. år.
 Kartverket gjør kontroll av leveranse ved mottak og legger dataene inn i Sentral FKB. 
 
-Kommunenen kan selv legge til taktype og overflatetype og håndterer selv denne informasjonen med hensyn til den periodiske ajourføringen foretatt av NIBIO hvert år og hvert 3. år.
-
 === Vedlikeholdsinformasjon Meldinger om feil og mangler
 
 ==== Omfang
