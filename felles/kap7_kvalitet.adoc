@@ -10,19 +10,32 @@ For å få et godt bilde av kvaliteten til data innenfor et område må man derf
 Prinsippet er at fullstendighet prioriteres foran nøyaktighet og FKB-data for et område vil derfor bestå av data med varierende grad av kvalitet. Alle data er kodet med datafangstdato og posisjonskvalitet slik at det er mulig å vurdere datakvaliteten til det enkelte dataobjekt. Det vil også være mulig å aggregere denne informasjonen som finnes på objektnivå opp til en beskrivelse av kvaliteten på datainnholdet i området som helhet. Det er imidlertid vanskelig å garantere datakvaliteten for FKB innenfor et område. Slik det står i FKB-Arealbruk.
 
 === Kvalitetskrav (Jeg har tatt utgangspunkt i kap. 8 Kvalitet i FKB Generell del)
-==== Egenskapskonsistens
-Klassifikasjonsriktighet skal være <15 % feil klassifiserte egenskaper. Hva menes her med egenskaper? Er det f.eks. hoyde, ndvi, andelbunn, andelbusk og andeltre for objekttypen Bunn? Eller er det feilklassifiserte objekttyper? Klassifisert som bunn, menn skulle vært busk?
+Bruker kap. 4.1 og 4.2 i https://sosi.geonorge.no/registreringsinstrukser/FKB-Ledning/5.0/Fotogrammetrisk_2024-01-01/#_kvalitetsklasser
+Tabell 3 Krav til logisk konsistens
+beholde rad 1 'Domenekonsitens Antall enheter som ikke er i samsvar med domenet NS-EN ISO19157:2013/016/1 0 feil Objekttyper, egenskaper og egenskapsverdier skal være i tråd med datamodellen'
+Dette ivaretar ingen bruk av ulovlige og gale koder, dvs. egenskapsverdier (=koder?) som ikke finnes eller f.eks. hoyde < 0 eller NDVI > 1)
+justere rad 3 'Topologisk konsistens med kvalistetsmål Antall ulovlige overlappinger (ingen objekttyper skal overlappe)'
+
+Tabell 4. Krav til egenskapskonsistens
+justere rad 1 'Klassifikasjonsriktighet Prosentandel feil klassifiserte EGENSKAPER Geodatakvalitet:2014/508/1 Maksimalt 0.5% feilklassifisering'
+
+Klassifikasjonsriktighet skal være <15 % feil klassifiserte egenskaper. Innebærer dette feilklassifiserte OBJEKTTYPER? Klassifisert som bunn, men skulle vært busk? Kan vi bruke måleenhet kvadratmeter? At xx % av totalarealet kan være feilklassifisert?
 Jf. F1-score i NIBIOs interne kvalitetskontroll av grønnstruktur for Drammen (95 %), Ullensvang (86 %) og Bodø (97 %). Her er jeg imidlertid usikker på hvorfor 400 punkter er valgt (~200 i grønt område, ~200 i grått område), jf. tabell 4 i kap. 7.4.1. Geodatakvalitet.
 Finner ingen informasjon om kontrollområder, kap. 7.2 i Geodatakvalitet.
 
-==== Fullstendighet
+Tabell 5. Krav til fullstendighet
+Her er jo datasettet heldekkende innafor kartleggingsområdet, så "hull" innafor kartleggingsområdet skal ikke forekomme?
+
+Følgende utgår?
 Manglende objekter
 Prosentandel manglende objekter? Er det realistisk å telle opp manglende trær, grøntområder,…? Bygninger vil jo visuelt mangle ettersom det er ønskelig at trekroner høyere enn bygninger ikke skal klippes mot bygninger.
 Overskytende objekter
 Prosentandel overskytende objekter? Jf. manglende.
 
-==== Stedfestingsnøyaktighet
-Krav til stedfestingsnøyaktighet settes etter FKB-standard C/D og nøyaktighetsklasse 4 Diffuse detaljer. Dette gir krav til systematiske avvik og standardavvik på 30 cm / 100 cm i grunnriss og 40 cm / 150 cm i høyde.
+Tabell 6. Oversikt over krav til stedfestingsnøyaktighet (systematisk avvik / standardavvik ) for ulike nøyaktighetsklasser i de ulike FKB-standardene
+Skille mellom objekttypene 
+1) Veg, Vann, Bygning, Jordbruk som alle kommer fra FKB-datasett (og som har datakvalitet beskrevet i sine respektive produktssepsifikasjoner/registreringsinstrukser)
+2) Bunn, Busk, Tre og Graa. Her settes krav til stedfestingsnøyaktighet etter FKB-standard C/D og nøyaktighetsklasse 4 Diffuse detaljer. Dette gir krav til systematiske avvik og standardavvik på 30 cm / 100 cm i grunnriss og 40 cm / 150 cm i høyde.
 
 Er dette oppnåelig?
 Er stedfestingsnøyaktighet i høyde aktuelt?
