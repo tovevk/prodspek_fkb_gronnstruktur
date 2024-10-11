@@ -13,6 +13,6 @@ Det hentes informasjon fra SSB-arealbruk og FKB-AR5 for å
 - avgrense kartleggingsområde (bebygd inkl. hyttefelt ved å kombinere FKB-AR5 og SSB-arealbruk, bufrer ut og inn for sammenhengende områder)
 - gi informasjon om jordbruksareal i bebygde områder
 
-I tillegg brukes andre hensiktsmessige FKB-datasett for å skille mellom grønne og ikke-grønne områder. Eksempler er FKB Arealbruk (transformasjonstasjon, industriområde) og FKB-BygnAnlegg (rørgate, demning).Dette er ingen uttømmende liste og inputdata kan endre seg i frentiden avhengig av tilghengelighet og økonomi.
+I tillegg brukes andre hensiktsmessige FKB-datasett for å skille mellom grønne og ikke-grønne områder. Eksempler er FKB Arealbruk (transformasjonstasjon, industriområde) og FKB-BygnAnlegg (rørgate, demning).Dette er ingen uttømmende liste – FKB-datasett og grunnlagsdata kan endre seg i frentiden avhengig av tilgjengelighet og økonomi.
 
 Ortofoto med oppløsning 25 cm brukes i kontrollen av produsert {fkbdatasett}.

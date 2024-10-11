@@ -1,0 +1,21 @@
+=== Innledning
+
+Dette er første versjon av {fkbdatasett}.
+
+NIBIO etablerte i 2022 et nasjonalt grønnstrukturkart (for bebygde områder) som fyller behov som ikke dekkes av eksisterende.
+Geovekst vedtok å etablere Grønnstruktur som et nytt "datasett" (tema?) i FKB.
+Prodspec + et opplegg hvor NIBIO etablerer en første versjon i 2025 og utvikler vedlikeholdsrutiner.
+med utgangspunkt i det grønnstrukturkartet NIBIO har utvikla.
+
+Fjernmålingsprodukt som ikke vil ha det presisjonsnivået som er vanlig i de fleste FKB-datasett.
+Referere omtrentlige kontrollresultater (AKG & co).
+
+Nøyaktighet kan endre seg.
+Bedre grunnlagsdata, mer raffinert produksjon eller nye metoder kan i framtida gi muligheter for mer nøyaktige Grønnstrukturdata.
+
+Bebygd vs C-standard: paradok?  Definere B og A spes. seinere.
+
+Struktur og egenskapsinnhold som er framtidsretta. 
+ vs
+Vinne erfaring før man legger altfor mye arbeid i det.
+For andre FKB-datasett er både prodspes og data utvikla og raffinert gjennom flere tiår.
