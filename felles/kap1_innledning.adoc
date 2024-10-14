@@ -2,10 +2,9 @@
 
 Dette er første versjon av {fkbdatasett}.
 
-NIBIO etablerte i 2022 et nasjonalt grønnstrukturkart (for bebygde områder) som fyller behov som ikke dekkes av eksisterende.
-Geovekst vedtok å etablere Grønnstruktur som et nytt "datasett" (tema?) i FKB.
-Prodspec + et opplegg hvor NIBIO etablerer en første versjon i 2025 og utvikler vedlikeholdsrutiner.
-med utgangspunkt i det grønnstrukturkartet NIBIO har utvikla.
+NIBIO etablerte i 2022 et forslag til et nasjonalt grønnstrukturkart for bebygde områder som fyller behov som ikke dekkes av eksisterende datasett.
+Geovekst vedtok å etablere Grønnstruktur som et nytt FKB-datasett høsten 2023.
+Det har blitt utarbeidet en første versjon av produktspesifikasjonen med utgangspunkt i grønnstrukturkartet NIBIO utvikla. NIBIO etablerer en første versjon av FKB-Grønnstruktur i 2025 og utvikler årlige vedlikeholdsrutiner.
 
 Fjernmålingsprodukt som ikke vil ha det presisjonsnivået som er vanlig i de fleste FKB-datasett.
 Referere omtrentlige kontrollresultater (AKG & co).
