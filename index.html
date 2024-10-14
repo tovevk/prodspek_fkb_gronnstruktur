@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.23">
+<meta name="generator" content="Asciidoctor 2.0.20">
 <meta name="author" content="Geovekst">
 <title>SOSI-standardisert produktspesifikasjon: FKB-Grønnstruktur 5.1</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
@@ -141,7 +141,7 @@ p a>code:hover{color:rgba(0,0,0,.9)}
 #content::before{content:none}
 #header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
 #header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #dddddf}
-#header>h1:only-child{border-bottom:1px solid #dddddf;padding-bottom:8px}
+#header>h1:only-child,body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
 #header .details{border-bottom:1px solid #dddddf;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:flex;flex-flow:row wrap}
 #header .details span:first-child{margin-left:-.125em}
 #header .details span.email a{color:rgba(0,0,0,.85)}
@@ -163,7 +163,6 @@ p a>code:hover{color:rgba(0,0,0,.9)}
 #toctitle{color:#7a2518;font-size:1.2em}
 @media screen and (min-width:768px){#toctitle{font-size:1.375em}
 body.toc2{padding-left:15em;padding-right:0}
-body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
 #toc.toc2{margin-top:0!important;background:#f8f8f7;position:fixed;width:15em;left:0;top:0;border-right:1px solid #e7e7e9;border-top-width:0!important;border-bottom-width:0!important;z-index:1000;padding:1.25em 1em;height:100%;overflow:auto}
 #toc.toc2 #toctitle{margin-top:0;margin-bottom:.8rem;font-size:1.2em}
 #toc.toc2>ul{font-size:.9em;margin-bottom:0}
@@ -329,7 +328,7 @@ a.image{text-decoration:none;display:inline-block}
 a.image object{pointer-events:none}
 sup.footnote,sup.footnoteref{font-size:.875em;position:static;vertical-align:super}
 sup.footnote a,sup.footnoteref a{text-decoration:none}
-sup.footnote a:active,sup.footnoteref a:active,#footnotes .footnote a:first-of-type:active{text-decoration:underline}
+sup.footnote a:active,sup.footnoteref a:active{text-decoration:underline}
 #footnotes{padding-top:.75em;padding-bottom:.75em;margin-bottom:.625em}
 #footnotes hr{width:20%;min-width:6.25em;margin:-.25em 0 .75em;border-width:1px 0 0}
 #footnotes .footnote{padding:0 .375em 0 .225em;line-height:1.3334;font-size:.875em;margin-left:1.2em;margin-bottom:.2em}
@@ -552,30 +551,13 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_datafangst">8. Datafangst</a>
 <ul class="sectlevel2">
 <li><a href="#_omfang_7">8.1. Omfang</a></li>
-<li><a href="#_registeringsinstruks">8.2. Registeringsinstruks</a></li>
+<li><a href="#_periodisk_ajourhold">8.2. Periodisk ajourhold</a></li>
 </ul>
 </li>
-<li><a href="#_datavedlikehold">9. Datavedlikehold</a>
-<ul class="sectlevel2">
-<li><a href="#_vedlikeholdsinformasjon">9.1. Vedlikeholdsinformasjon</a>
-<ul class="sectlevel3">
-<li><a href="#_omfang_8">9.1.1. Omfang</a></li>
-<li><a href="#_vedlikeholdsfrekvens">9.1.2. Vedlikeholdsfrekvens</a></li>
-<li><a href="#_vedlikeholdsbeskrivelse">9.1.3. Vedlikeholdsbeskrivelse</a></li>
-</ul>
-</li>
-<li><a href="#_vedlikeholdsinformasjon_meldinger_om_feil_og_mangler">9.2. Vedlikeholdsinformasjon Meldinger om feil og mangler</a>
-<ul class="sectlevel3">
-<li><a href="#_omfang_9">9.2.1. Omfang</a></li>
-<li><a href="#_vedlikeholdsfrekvens_2">9.2.2. Vedlikeholdsfrekvens</a></li>
-<li><a href="#_vedlikeholdsbeskrivelse_2">9.2.3. Vedlikeholdsbeskrivelse</a></li>
-</ul>
-</li>
-</ul>
-</li>
+<li><a href="#_datavedlikehold">9. Datavedlikehold</a></li>
 <li><a href="#_presentasjon">10. Presentasjon</a>
 <ul class="sectlevel2">
-<li><a href="#_omfang_10">10.1. Omfang</a></li>
+<li><a href="#_omfang_8">10.1. Omfang</a></li>
 <li><a href="#_referanse_til_presentasjonskatalog">10.2. Referanse til presentasjonskatalog</a></li>
 </ul>
 </li>
@@ -583,35 +565,35 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel2">
 <li><a href="#_leveransemetode_gml_filleveranse">11.1. Leveransemetode GML filleveranse</a>
 <ul class="sectlevel3">
-<li><a href="#_omfang_11">11.1.1. Omfang</a></li>
+<li><a href="#_omfang_9">11.1.1. Omfang</a></li>
 <li><a href="#_leveranseformat">11.1.2. Leveranseformat</a></li>
 <li><a href="#_leveransemedium">11.1.3. Leveransemedium</a></li>
 </ul>
 </li>
 <li><a href="#_leveransemetode_sosi_format_filleveranse">11.2. Leveransemetode SOSI-format filleveranse</a>
 <ul class="sectlevel3">
-<li><a href="#_omfang_12">11.2.1. Omfang</a></li>
+<li><a href="#_omfang_10">11.2.1. Omfang</a></li>
 <li><a href="#_leveranseformat_2">11.2.2. Leveranseformat</a></li>
 <li><a href="#_leveransemedium_2">11.2.3. Leveransemedium</a></li>
 </ul>
 </li>
 <li><a href="#_leveransemetode_esri_fgdb_filleveranse">11.3. Leveransemetode ESRI fgdb filleveranse</a>
 <ul class="sectlevel3">
-<li><a href="#_omfang_13">11.3.1. Omfang</a></li>
+<li><a href="#_omfang_11">11.3.1. Omfang</a></li>
 <li><a href="#_leveranseformat_3">11.3.2. Leveranseformat</a></li>
 <li><a href="#_leveransemedium_3">11.3.3. Leveransemedium</a></li>
 </ul>
 </li>
 <li><a href="#_leveransemetode_gml_ngis_openapi">11.4. Leveransemetode GML NGIS-OpenAPI</a>
 <ul class="sectlevel3">
-<li><a href="#_omfang_14">11.4.1. Omfang</a></li>
+<li><a href="#_omfang_12">11.4.1. Omfang</a></li>
 <li><a href="#_leveranseformat_4">11.4.2. Leveranseformat</a></li>
 <li><a href="#_leveransemedium_4">11.4.3. Leveransemedium</a></li>
 </ul>
 </li>
 <li><a href="#_leveransemetode_json_ngis_openapi">11.5. Leveransemetode JSON NGIS-OpenAPI</a>
 <ul class="sectlevel3">
-<li><a href="#_omfang_15">11.5.1. Omfang</a></li>
+<li><a href="#_omfang_13">11.5.1. Omfang</a></li>
 <li><a href="#_leveranseformat_5">11.5.2. Leveranseformat</a></li>
 <li><a href="#_leveransemedium_5">11.5.3. Leveransemedium</a></li>
 </ul>
@@ -621,7 +603,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_tilleggsinformasjon">12. Tilleggsinformasjon</a></li>
 <li><a href="#_metadata">13. Metadata</a>
 <ul class="sectlevel2">
-<li><a href="#_omfang_16">13.1. Omfang</a></li>
+<li><a href="#_omfang_14">13.1. Omfang</a></li>
 <li><a href="#_metadataspesifikasjon">13.2. Metadataspesifikasjon</a></li>
 </ul>
 </li>
@@ -675,9 +657,6 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="paragraph">
 <p>Denne produktspesifikasjonen er utarbeidet iht. SOSI produktspesifikasjoner – Krav og godkjenning 5.0 <a href="#SOSI-KRAV">[SOSI-KRAV]</a>. UML-modellen som ligger til grunn for innhold i diagrammene og dokumentasjon i kap. 5, følger reglene i SOSI Regler for UML-modellering, versjon 5.1 <a href="#SOSI-UML">[SOSI-UML]</a>. <a href="http://sosi.geonorge.no/veiledere/UML">Denne veilederen</a> gir hjelp til å lese UML-diagrammene.</p>
 </div>
-<div class="paragraph">
-<p>Testendring</p>
-</div>
 </div>
 <div class="sect2">
 <h3 id="_historikk">1.2. Historikk</h3>
@@ -697,31 +676,31 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p><strong>[FKB]</strong> : <a href="https://sosi.geonorge.no/Standarder/FKB_generell_del">SOSI abstrakte spesifikasjoner – FKB generell del, versjon 5.1 2024-07-01</a></p>
 </div>
 <div id="G" class="paragraph">
-<p><strong>[G]</strong> : <a href="https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/geodatakvalitet" class="bare">https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/geodatakvalitet</a> [Geodatakvalitet, versjon 1.0 2015]</p>
+<p><strong>[G]</strong> : <a href="https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/geodatakvalitet">Geodatakvalitet, versjon 1.0 2015</a></p>
 </div>
 <div id="GEO-VEIL" class="paragraph">
-<p><strong>[GEO-VEIL]</strong> : <a href="https://www.kartverket.no/geodataarbeid/geovekst/veiledningsmateriell-geovekst" class="bare">https://www.kartverket.no/geodataarbeid/geovekst/veiledningsmateriell-geovekst</a> [Geovekst veiledingsdokumentasjon]</p>
+<p><strong>[GEO-VEIL]</strong> : <a href="https://www.kartverket.no/geodataarbeid/geovekst/veiledningsmateriell-geovekst">Geovekst veiledingsdokumentasjon</a></p>
 </div>
 <div id="ISO-METADATA" class="paragraph">
 <p><strong>[ISO-METADATA]</strong> : 19115-1:2015 Geographic information - Metadata - Part 1: Fundamentals og 19115-2:2015 Geographic information - Metadata - Part 2: Extensions for acquisition and processing</p>
 </div>
 <div id="PABG" class="paragraph">
-<p><strong>[PABG]</strong> : <a href="https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/produksjon-av-basis-geodata" class="bare">https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/produksjon-av-basis-geodata</a> [Produksjon av basis geodata, versjon 2.0 2023]</p>
+<p><strong>[PABG]</strong> : <a href="https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/produksjon-av-basis-geodata">Produksjon av basis geodata, versjon 1.0 2015</a></p>
 </div>
 <div id="PBL-KART" class="paragraph">
-<p><strong>[PBL-KART]</strong> : <a href="https://www.regjeringen.no/no/dokumenter/veiledning-til-forskrift-om-kart-stedfestet-informasjon-arealformal-og-digitalt-planregister/" class="bare">https://www.regjeringen.no/no/dokumenter/veiledning-til-forskrift-om-kart-stedfestet-informasjon-arealformal-og-digitalt-planregister/</a> [Veiledning til forskrift om kart, stedfestet informasjon, arealformål og digitalt planregister]</p>
+<p><strong>[PBL-KART]</strong> : <a href="https://www.regjeringen.no/no/dokumenter/veiledning-til-forskrift-om-kart-stedfestet-informasjon-arealformal-og-digitalt-planregister/">Veiledning til forskrift om kart, stedfestet informasjon, arealformål og digitalt planregister</a></p>
 </div>
 <div id="SOSI-UML" class="paragraph">
-<p><strong>[SOSI-UML]</strong> : <a href="https://register.geonorge.no/standarder/sosi/del-1-generell-del/regler-for-uml-modellering" class="bare">https://register.geonorge.no/standarder/sosi/del-1-generell-del/regler-for-uml-modellering</a> [SOSI Regler for UML-modellering, versjon 5.1 2023]</p>
+<p><strong>[SOSI-UML]</strong> : <a href="https://register.geonorge.no/standarder/sosi/del-1-generell-del/regler-for-uml-modellering">SOSI Regler for UML-modellering, versjon 5.1 2020</a></p>
 </div>
 <div id="SOSI-KRAV" class="paragraph">
-<p><strong>[SOSI-KRAV]</strong> : <a href="https://register.geonorge.no/standarder/sosi/del-1-generell-del/sosi-produktspesifikasjoner-krav-og-godkjenning" class="bare">https://register.geonorge.no/standarder/sosi/del-1-generell-del/sosi-produktspesifikasjoner-krav-og-godkjenning</a> [SOSI produktspesifikasjoner – Krav og godkjenning, versjon 5.0 2023]</p>
+<p><strong>[SOSI-KRAV]</strong> : <a href="https://register.geonorge.no/standarder/sosi/del-1-generell-del/sosi-produktspesifikasjoner-krav-og-godkjenning">SOSI produktspesifikasjoner – Krav og godkjenning, versjon 5.0 2014</a></p>
 </div>
 <div id="SOSI-FORMAT" class="paragraph">
-<p><strong>[SOSI-FORMAT]</strong> : <a href="https://register.geonorge.no/standarder/sosi/del-1-generell-del/realisering-i-sosi-format" class="bare">https://register.geonorge.no/standarder/sosi/del-1-generell-del/realisering-i-sosi-format</a> [SOSI Realisering i SOSI-format, versjon 5.0 2023]</p>
+<p><strong>[SOSI-FORMAT]</strong> : <a href="https://register.geonorge.no/standarder/sosi/del-1-generell-del/realisering-i-sosi-format">SOSI Realisering i SOSI-format, versjon 5.0 2018</a></p>
 </div>
 <div id="SOSI-GML" class="paragraph">
-<p><strong>[SOSI-GML]</strong> : <a href="https://register.geonorge.no/standarder/sosi/del-1-generell-del/realisering-i-gml-format" class="bare">https://register.geonorge.no/standarder/sosi/del-1-generell-del/realisering-i-gml-format</a> [SOSI Realisering i GML-format, versjon 5.0 2023]</p>
+<p><strong>[SOSI-GML]</strong> : <a href="https://register.geonorge.no/standarder/sosi/del-1-generell-del/realisering-i-gml-format">SOSI Realisering i GML-format, versjon 5.0 2018</a></p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
@@ -935,9 +914,6 @@ Fullstendighet kan angis i prosent i relasjon til spesifiserte krav. Informasjon
 <p><strong>DTM</strong>: Digital TerrengModell.</p>
 </div>
 <div class="paragraph">
-<p><strong>NDH</strong>: Nasjonal digital høydemodell.</p>
-</div>
-<div class="paragraph">
 <p><strong>ESRI fgdb</strong>: Leveranseformatet ESRI filgeodatabase (ESRI = Enviromental Systems Research Institute)</p>
 </div>
 <div class="paragraph">
@@ -1063,12 +1039,10 @@ Fullstendighet kan angis i prosent i relasjon til spesifiserte krav. Informasjon
 <p>analyse og presentasjon i et integrert informasjonssystem (GIS-system)</p>
 </li>
 <li>
-<p>produksjon av kart og avledede produkter med forskjellig krav til innhold, detaljering og stedfestingsnøyaktighet</p>
+<p>produksjon av kart og avledede produkter med forskjellig krav til innhold, detaljering og stedfestingsnøyaktighet
+FKB inngår i det offentlige kartgrunnlaget (<a href="#DOK">[DOK]</a>).</p>
 </li>
 </ul>
-</div>
-<div class="paragraph">
-<p>FKB inngår i det offentlige kartgrunnlaget (<a href="#DOK">[DOK]</a>).</p>
 </div>
 <div class="paragraph">
 <p>Fyll inn&#8230;&#8203;</p>
@@ -1085,7 +1059,7 @@ Fullstendighet kan angis i prosent i relasjon til spesifiserte krav. Informasjon
 <div class="paragraph">
 <p>FKB er detaljerte data stort sett registrert fotogrammetrisk fra flybilder med en oppløsing mellom 7 og 25 cm.
 Stedfestingsnøyaktigheten varierer fra +/- 0,10 m til +/- 1 m avhengig av objekttype, områdetype og datafangstmetode.
-FKB-data egner seg for presentasjon i målestokker fra ca. 1:100 til ca. 1:20000</p>
+FKB-data egner seg for presentasjon i målestokker fra ca 1:100 til ca 1:20000</p>
 </div>
 </div>
 <div class="sect2">
@@ -1356,7 +1330,7 @@ Ikke angitt</p>
 <p>UTC</p>
 </div>
 <div class="paragraph">
-<p>Dersom ikke tidssone er spesielt angitt ved angivelse av tidspunkt, skal man anta at det er norsk tid som benyttes. Dvs. UTC+1 (normaltid) på vinteren og UTC+2 (sommertid) på sommeren.</p>
+<p>Dersom ikke tidssone er spesielt angitt ved angivelse av tidspunkt skal man anta at det er norsk tid som benyttes. Dvs. UTC+1 (normaltid) på vinteren og UTC+2 (sommertid) på sommeren.</p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
@@ -1391,27 +1365,11 @@ Ikke angitt</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_registeringsinstruks">8.2. Registeringsinstruks</h3>
+<h3 id="_periodisk_ajourhold">8.2. Periodisk ajourhold</h3>
 <div class="paragraph">
-<p>Fjernmåling er den dominerende datafangstmetoden for FKB-Grønnstruktur 5.1.</p>
+<p>Fyll inn&#8230;&#8203;</p>
 </div>
-<div class="paragraph">
-<p>Grønnstrukturkartet etableres ved bruk av
-- detaljerte offentlige kartdata (FKB-Vei, -Vann, -Bygning)
-- satellittdata ("very high resolution"-bilder fra Copernicus-programmet via Norsk Romsenter) med oppløsning 2–4 m
-- nasjonal detaljert høydemodell (NDH) med oppløsning 1 m</p>
-</div>
-<div class="paragraph">
-<p>Det hentes informasjon fra SSB-arealbruk og FKB-AR5 for å
-- avgrense kartleggingsområde (bebygd inkl. hyttefelt ved å kombinere FKB-AR5 og SSB-arealbruk, bufrer ut og inn for sammenhengende områder)
-- gi informasjon om jordbruksareal i bebygde områder</p>
-</div>
-<div class="paragraph">
-<p>I tillegg brukes andre hensiktsmessige FKB-datasett for å skille mellom grønne og ikke-grønne områder. Eksempler er FKB Arealbruk (transformasjonstasjon, industriområde) og FKB-BygnAnlegg (rørgate, demning).Dette er ingen uttømmende liste – FKB-datasett og grunnlagsdata kan endre seg i frentiden avhengig av tilgjengelighet og økonomi.</p>
-</div>
-<div class="paragraph">
-<p>Ortofoto med oppløsning 25 cm brukes i kontrollen av produsert FKB-Grønnstruktur 5.1.</p>
-</div>
+<div style="page-break-after: always;"></div>
 </div>
 </div>
 </div>
@@ -1419,64 +1377,16 @@ Ikke angitt</p>
 <h2 id="_datavedlikehold">9. Datavedlikehold</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>FKB-data vedlikeholdes gjennom 3 prosesser. Det henvises til Geovekst veiledningsmateriell for nærmere beskrivelse av vedlikeholdsopplegget <a href="#GEO-VEIL">[GEO-VEIL]</a></p>
-</div>
-<div class="sect2">
-<h3 id="_vedlikeholdsinformasjon">9.1. Vedlikeholdsinformasjon</h3>
-<div class="sect3">
-<h4 id="_omfang_8">9.1.1. Omfang</h4>
-<div class="paragraph">
-<p><a href="#HeleDatasettet">Hele datasettet</a></p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_vedlikeholdsfrekvens">9.1.2. Vedlikeholdsfrekvens</h4>
-<div class="paragraph">
-<p>Periodisk ajourhold.
-Hvert år vil datasettet bli oppdatert med nye FKB-data fra Vei, Vann, Bygning og AR5 (jordbruksareal) samt SSB-arealbruk for områdeavgrensning.
-Hvert 3. år foretas et periodisk ajourhold ved bruk av nye høyoppløselige satellittbilder.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_vedlikeholdsbeskrivelse">9.1.3. Vedlikeholdsbeskrivelse</h4>
-<div class="paragraph">
-<p>NIBIO foretar ajourholdet, både årlig og hvert 3. år.
-Kartverket gjør kontroll av leveranse ved mottak og legger dataene inn i Sentral FKB.</p>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_vedlikeholdsinformasjon_meldinger_om_feil_og_mangler">9.2. Vedlikeholdsinformasjon Meldinger om feil og mangler</h3>
-<div class="sect3">
-<h4 id="_omfang_9">9.2.1. Omfang</h4>
-<div class="paragraph">
-<p><a href="#HeleDatasettet">Hele datasettet</a></p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_vedlikeholdsfrekvens_2">9.2.2. Vedlikeholdsfrekvens</h4>
-<div class="paragraph">
-<p>Kontinuerlig</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_vedlikeholdsbeskrivelse_2">9.2.3. Vedlikeholdsbeskrivelse</h4>
-<div class="paragraph">
-<p>Kartverket mottar gjennom kundesenteret og tjenesten Rettikartet.no en del meldinger om feil og mangler i FKB fra publikum. Disse meldingene kan etter en vurdering mot andre datakilder bli lagt inn i FKB.</p>
-</div>
-<div class="paragraph">
-<p>Også andre parter i Geovekst vil kunne ta imot meldinger om feil og avvik i kartet og oppdatere FKB på bakgrunn av disse meldingene.</p>
+<p>Fyll inn&#8230;&#8203;</p>
 </div>
 <div style="page-break-after: always;"></div>
-</div>
-</div>
 </div>
 </div>
 <div class="sect1">
 <h2 id="_presentasjon">10. Presentasjon</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_omfang_10">10.1. Omfang</h3>
+<h3 id="_omfang_8">10.1. Omfang</h3>
 <div class="paragraph">
 <p><a href="#HeleDatasettet">Hele datasettet</a></p>
 </div>
@@ -1499,7 +1409,7 @@ Kartverket gjør kontroll av leveranse ved mottak og legger dataene inn i Sentra
 <div class="sect2">
 <h3 id="_leveransemetode_gml_filleveranse">11.1. Leveransemetode GML filleveranse</h3>
 <div class="sect3">
-<h4 id="_omfang_11">11.1.1. Omfang</h4>
+<h4 id="_omfang_9">11.1.1. Omfang</h4>
 <div class="paragraph">
 <p><a href="#HeleDatasettet">Hele datasettet</a></p>
 </div>
@@ -1544,7 +1454,7 @@ Kartverket gjør kontroll av leveranse ved mottak og legger dataene inn i Sentra
 <div class="sect2">
 <h3 id="_leveransemetode_sosi_format_filleveranse">11.2. Leveransemetode SOSI-format filleveranse</h3>
 <div class="sect3">
-<h4 id="_omfang_12">11.2.1. Omfang</h4>
+<h4 id="_omfang_10">11.2.1. Omfang</h4>
 <div class="paragraph">
 <p><a href="#HeleDatasettet">Hele datasettet</a></p>
 </div>
@@ -1589,7 +1499,7 @@ Kartverket gjør kontroll av leveranse ved mottak og legger dataene inn i Sentra
 <div class="sect2">
 <h3 id="_leveransemetode_esri_fgdb_filleveranse">11.3. Leveransemetode ESRI fgdb filleveranse</h3>
 <div class="sect3">
-<h4 id="_omfang_13">11.3.1. Omfang</h4>
+<h4 id="_omfang_11">11.3.1. Omfang</h4>
 <div class="paragraph">
 <p><a href="#HeleDatasettet">Hele datasettet</a></p>
 </div>
@@ -1634,7 +1544,7 @@ Kartverket gjør kontroll av leveranse ved mottak og legger dataene inn i Sentra
 <div class="sect2">
 <h3 id="_leveransemetode_gml_ngis_openapi">11.4. Leveransemetode GML NGIS-OpenAPI</h3>
 <div class="sect3">
-<h4 id="_omfang_14">11.4.1. Omfang</h4>
+<h4 id="_omfang_12">11.4.1. Omfang</h4>
 <div class="paragraph">
 <p><a href="#HeleDatasettet">Hele datasettet</a></p>
 </div>
@@ -1679,7 +1589,7 @@ Kartverket gjør kontroll av leveranse ved mottak og legger dataene inn i Sentra
 <div class="sect2">
 <h3 id="_leveransemetode_json_ngis_openapi">11.5. Leveransemetode JSON NGIS-OpenAPI</h3>
 <div class="sect3">
-<h4 id="_omfang_15">11.5.1. Omfang</h4>
+<h4 id="_omfang_13">11.5.1. Omfang</h4>
 <div class="paragraph">
 <p><a href="#HeleDatasettet">Hele datasettet</a></p>
 </div>
@@ -1737,7 +1647,7 @@ Kartverket gjør kontroll av leveranse ved mottak og legger dataene inn i Sentra
 <h2 id="_metadata">13. Metadata</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_omfang_16">13.1. Omfang</h3>
+<h3 id="_omfang_14">13.1. Omfang</h3>
 <div class="paragraph">
 <p><a href="#HeleDatasettet">Hele datasettet</a></p>
 </div>
@@ -1789,7 +1699,7 @@ Kartverket gjør kontroll av leveranse ved mottak og legger dataene inn i Sentra
 <h3 id="_lisens" class="discrete">Lisens</h3>
 <div class="paragraph">
 <p>Denne standarden er gitt ut under
-<a href="https://data.norge.no/nlod/no" class="bare">https://data.norge.no/nlod/no</a> [norsk lisens for offentlige data (NLOD)].</p>
+<a href="https://data.norge.no/nlod/no/">norsk lisens for offentlige data (NLOD)</a>.</p>
 </div>
 <div class="paragraph">
 <p>Du har lov til:</p>
@@ -1845,7 +1755,7 @@ av denne lisensen og ikke kan viderebrukes</p>
 <div id="footer">
 <div id="footer-text">
 Versjon 5.1<br>
-Last updated 2024-10-13 23:19:58 +0200
+Last updated 2024-06-26 08:04:29 +0200
 </div>
 </div>
 </body>
