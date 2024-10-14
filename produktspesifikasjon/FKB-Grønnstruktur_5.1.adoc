@@ -1,23 +1,25 @@
 :datasett: FKB-Grønnstruktur
-:publisert: 2024-07-01
-:versjon: 5.1
-:underversjon: 2024-07-01
+:publisert: 
+:versjon: 1.0
+:underversjon: 
 // Sti til metadataoppføring i Geonorge
-//:metadata-url: https://kartkatalog.geonorge.no/metadata/fkb-ar5/166382b4-82d6-4ea9-a68e-6fd0c87bf788
+//:metadata-url: https://kartkatalog.geonorge.no/metadata/fkb-...
 :dokumentstatus: 2
 // All informasjon i hode over denne linja må fylles ut for hvert datasett.
 include::../felles/filhode.adoc[]
 
 == Innledning, historikk og endringslogg
 
-=== Innledning
+//=== Innledning
 
-Beskrivelse av FKB-Grønnstruktur...
+include::../felles/kap1_innledning.adoc[]
+
+//Beskrivelse av FKB-Grønnstruktur...
 
 
-Denne produktspesifikasjonen er utarbeidet iht. SOSI produktspesifikasjoner – Krav og godkjenning 5.0 <<SOSI-KRAV>>. UML-modellen som ligger til grunn for innhold i diagrammene og dokumentasjon i kap. 5, følger reglene i SOSI Regler for UML-modellering, versjon 5.1 <<SOSI-UML>>. http://sosi.geonorge.no/veiledere/UML[Denne veilederen] gir hjelp til å lese UML-diagrammene.
+//Denne produktspesifikasjonen er utarbeidet iht. SOSI produktspesifikasjoner – Krav og godkjenning 5.0 <<SOSI-KRAV>>. UML-modellen som ligger til grunn for innhold i diagrammene og dokumentasjon i kap. 5, følger reglene i SOSI Regler for UML-modellering, versjon 5.1 <<SOSI-UML>>. http://sosi.geonorge.no/veiledere/UML[Denne veilederen] gir hjelp til å lese UML-diagrammene.
 
-Testendring
+//Testendring
 
 === Historikk
 
@@ -121,12 +123,16 @@ include::../felles/kap6_referansesystem.adoc[]
 
 == Kvalitet
 
+include::../felles/kap7_kvalitet.adoc[]
+
+////
 === Omfang
 <<HeleDatasettet,Hele datasettet>>
 
 === Beskrivelse av datakvalitet
 
 Fyll inn...
+////
 
 <<<
 
@@ -159,7 +165,9 @@ include::../felles/kap11_leveranse.adoc[]
 
 == Tilleggsinformasjon
 
-Fyll inn...
+include::../felles/kap5_tilleggsinformasjon.adoc[]
+
+//Fyll inn...
 
 
 <<<

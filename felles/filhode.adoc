@@ -32,7 +32,9 @@ Geovekst
 
 ifeval::[{dokumentstatus} == 2]
 
-WARNING: *Høringsversjon!* 
+//WARNING: *Høringsversjon!* 
+
+WARNING: *Under arbeid* 
 
 endif::[]
 
@@ -43,10 +45,13 @@ endif::[]
 - {prodspek-url}/{versjon}[HTML-dokument] +
 - {uml-url}[HTML-visning av UML-modellen] +
 *Nyeste versjon finnes på*: {prodspek-url} +
-*Faglig godkjent av*: Geovekst +
-*Formelt godkjent av*: Kartverket +
+*Faglig godkjent av*: 
+//Geovekst +
+*Formelt godkjent av*: 
+//Kartverket +
 
-Vedtatt som standard av Standardiseringskomiteen for Geomatikk 
+//Vedtatt som standard av Standardiseringskomiteen for Geomatikk 
+
 
 ****
 
